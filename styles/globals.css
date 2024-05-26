@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+.checkout-form{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 10px;
+}
+@media (max-width: 640px) { 
+    .checkout-form{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
